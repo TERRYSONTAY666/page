@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+
+header {
+    background: #d92020;
+    color: white;
+    padding: 1rem;
+}
+
+.logo {
+    width: 250px; /* Ajusta el tamaño según necesidad */
+    height: auto;
+    position: absolute;
+  justify-content: center;
+ display: flex;
+  bottom: 755px;
+    left: 40px;
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#hero {
+    background: #181717;
+    color: white;
+    padding: 5px 20px;
+}
+
+section {
+    padding: 40px 20px;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.tarjeta, .producto {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+}
+
+#contacto form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+    margin: auto;
+}
+
+button {
+    background: #008080;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
